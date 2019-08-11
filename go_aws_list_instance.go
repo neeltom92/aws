@@ -30,7 +30,7 @@ func main() {
     	}
 
 
-    	input := ec2.DescribeInstancesInput{Filters: filters}
+      input := ec2.DescribeInstancesInput{Filters: filters}
       result, err := svc.DescribeInstances(&input)
       if err != nil {
 		panic(err.Error())
