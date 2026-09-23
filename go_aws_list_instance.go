@@ -6,18 +6,7 @@ package main
 import (
     "fmt"
     "github.com/aws/aws-sdk-go/aws"
-    "github.com/aws/aws-sdk-go/aws/session"
-    "github.com/aws/aws-sdk-go/service/ec2"
-)
-
-
-func main() {
-    // Load session from shared config
-    sess := session.Must(session.NewSessionWithOptions(session.Options{
-        SharedConfigState: session.SharedConfigEnable,
-    }))
-
-    svc := ec2.New(sess)
+    "github.com/aws/aws-sdk-g]
 
 
     filters := []*ec2.Filter{
