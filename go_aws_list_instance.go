@@ -1,4 +1,4 @@
-//AWS Golang code to list all instance under a specific region based on aws config
+//AWS Golang code to list all instance under a specific region based on aws config//  this code needs more details
 
 
 package main
